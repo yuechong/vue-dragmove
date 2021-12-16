@@ -4,6 +4,7 @@
 ### import VMove from 'v-move';
 ### Vue.use(VMove)
 ### demo:
+<code>
 <div style="position:relative">
  <i style="position: absolute;"
     v-move
@@ -11,7 +12,7 @@
     @moveEvent="fn"
   />
 </div>
-
+</code>
 ### dataset:
 #### disabled： 是否可拖动平移
 #### left： 相对于容器（默认父节点）定位的 left 的百分比
