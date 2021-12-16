@@ -116,7 +116,7 @@ export default {
      *  value：targetId
      * data-set disabled
      */
-    Vue.directive('dragmove', {
+    Vue.directive('move', {
       bind(el, binding) {
         /**
          * mouseDown
